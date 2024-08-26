@@ -1,0 +1,616 @@
+[
+    {
+        "exam_name": "JEE Advanced",
+        "exam_type": "Entrance Exam",
+        "exam_level": "National Level",
+        "exam_purpose": "Admission to undergraduate programs in the Indian Institutes of Technology (IITs)",
+        "exam_subjects": [
+            "Physics",
+            "Chemistry",
+            "Mathematics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "17 years",
+            "educational_qualification": "10+2 or equivalent",
+            "required_percentage": "Varies (usually around 75% aggregate)",
+            "number_of_attempts": "Maximum of 2 consecutive years"
+        },
+        "exam_pattern": {
+            "mode": "Computer-based Test (CBT)",
+            "duration": "3 hours per paper",
+            "total_papers": 2,
+            "total_questions": "Varies",
+            "question_types": [
+                "Multiple Choice Questions (MCQs)",
+                "Numerical Answer Type (NAT) Questions"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies (usually in the month of May)",
+            "registration_end_date": "Varies (usually in the month of June)",
+            "exam_date": "Usually in the month of June"
+        },
+        "official_website": "https://jeeadv.ac.in/",
+        "additional_information": "JEE Advanced is considered one of the toughest engineering entrance exams in India and is the gateway to prestigious IITs."
+    },
+    {
+        "exam_name": "JEE Main",
+        "exam_type": "Entrance Exam",
+        "exam_level": "National Level",
+        "exam_purpose": "Admission to undergraduate engineering programs at NITs, IIITs, other Centrally Funded Technical Institutions (CFTIs), and as an eligibility test for JEE Advanced",
+        "exam_subjects": [
+            "Physics",
+            "Chemistry",
+            "Mathematics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "No age limit",
+            "educational_qualification": "10+2 or equivalent",
+            "required_percentage": "Varies (usually around 75% aggregate)",
+            "number_of_attempts": "Maximum of 3 consecutive years"
+        },
+        "exam_pattern": {
+            "mode": "Computer-based Test (CBT) with Paper 2 conducted in Pen and Paper-based Test (PBT) mode for B.Arch/B.Planning courses",
+            "duration": "3 hours for Paper 1, 3 hours for Paper 2",
+            "total_papers": 2,
+            "total_questions": "Varies",
+            "question_types": [
+                "Multiple Choice Questions (MCQs)",
+                "Numerical Answer Type (NAT) Questions"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies (usually in the month of December/January for April session and February/March for May session)",
+            "registration_end_date": "Varies (usually in the month of January/February for April session and March/April for May session)",
+            "exam_date": "Usually conducted in multiple sessions in the months of February, March, April, and May"
+        },
+        "official_website": "https://jeemain.nta.nic.in/",
+        "additional_information": "JEE Main is one of the most popular engineering entrance exams in India, serving as a gateway to various prestigious engineering institutions across the country."
+    },
+    {
+        "exam_name": "Indian Olympiad Qualifier in Mathematics (IOQM)",
+        "exam_type": "Olympiad",
+        "exam_level": "National Level",
+        "exam_purpose": "Selection for the next levels of the Indian Mathematical Olympiad Programme",
+        "exam_subjects": [
+            "Mathematics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "No specific minimum age",
+            "educational_qualification": "School students (usually up to class 12)",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Written Examination",
+            "duration": "3 hours",
+            "total_papers": 1,
+            "total_questions": "30",
+            "question_types": [
+                "Multiple Choice Questions (MCQs)"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies (usually in the month of September)",
+            "registration_end_date": "Varies (usually in the month of October)",
+            "exam_date": "Usually in November"
+        },
+        "official_website": "https://olympiads.hbcse.tifr.res.in/",
+        "additional_information": "IOQM is the first stage in the selection process for the Indian Mathematical Olympiad."
+    },
+    {
+        "exam_name": "Regional Mathematical Olympiad (RMO)",
+        "exam_type": "Olympiad",
+        "exam_level": "Regional Level",
+        "exam_purpose": "Selection for Indian National Mathematical Olympiad (INMO)",
+        "exam_subjects": [
+            "Mathematics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "No specific minimum age",
+            "educational_qualification": "School students (usually up to class 11)",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Written Examination",
+            "duration": "3 hours",
+            "total_papers": 1,
+            "total_questions": "6",
+            "question_types": [
+                "Theoretical problems requiring proofs"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies by region",
+            "registration_end_date": "Varies by region",
+            "exam_date": "Usually in October"
+        },
+        "official_website": "https://olympiads.hbcse.tifr.res.in/",
+        "additional_information": "RMO is the first step for Indian students to qualify for the IMO."
+    },
+    {
+        "exam_name": "Indian National Mathematical Olympiad (INMO)",
+        "exam_type": "Olympiad",
+        "exam_level": "National Level",
+        "exam_purpose": "Selection for International Mathematical Olympiad (IMO)",
+        "exam_subjects": [
+            "Mathematics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "No specific minimum age",
+            "educational_qualification": "School students (usually up to class 12)",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Written Examination",
+            "duration": "4 hours",
+            "total_papers": 1,
+            "total_questions": "6",
+            "question_types": [
+                "Theoretical problems requiring proofs"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies",
+            "registration_end_date": "Varies",
+            "exam_date": "Usually in January"
+        },
+        "official_website": "https://olympiads.hbcse.tifr.res.in/",
+        "additional_information": "INMO is the national level exam to select students for the IMO Training Camp."
+    },
+    {
+        "exam_name": "International Mathematical Olympiad Training Camp (IMOTC)",
+        "exam_type": "Training Camp",
+        "exam_level": "National Level",
+        "exam_purpose": "Training and selection for the International Mathematical Olympiad (IMO)",
+        "exam_subjects": [
+            "Mathematics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "No specific minimum age",
+            "educational_qualification": "Selected from INMO",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Training and assessment",
+            "duration": "Several weeks",
+            "total_papers": "Multiple assessments",
+            "total_questions": "Varies",
+            "question_types": [
+                "Theoretical problems requiring proofs"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Based on INMO results",
+            "registration_end_date": "Based on INMO results",
+            "exam_date": "Usually April to May"
+        },
+        "official_website": "https://olympiads.hbcse.tifr.res.in/",
+        "additional_information": "IMOTC is held to train students for the IMO and select the final team representing India."
+    },
+    {
+        "exam_name": "International Mathematical Olympiad (IMO)",
+        "exam_type": "Olympiad",
+        "exam_level": "International Level",
+        "exam_purpose": "Identify and encourage the mathematical creativity of children in schools across the world",
+        "exam_subjects": [
+            "Mathematics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "No specific minimum age",
+            "educational_qualification": "School students",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Written Examination",
+            "duration": "4.5 hours per paper",
+            "total_papers": 2,
+            "total_questions": "6 (3 questions per paper)",
+            "question_types": [
+                "Theoretical problems requiring proofs"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies by country",
+            "registration_end_date": "Varies by country",
+            "exam_date": "Usually in July"
+        },
+        "official_website": "https://www.imo-official.org/",
+        "additional_information": "IMO is the oldest of the International Science Olympiads, and it is considered highly prestigious."
+    },
+    {
+        "exam_name": "National Eligibility cum Entrance Test (NEET)",
+        "exam_type": "Entrance Exam",
+        "exam_level": "National Level",
+        "exam_purpose": "Admission to undergraduate medical courses (MBBS/BDS) in India",
+        "exam_subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology (Botany & Zoology)"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "17 years",
+            "educational_qualification": "10+2 or equivalent with Physics, Chemistry, Biology/Biotechnology, and English",
+            "required_percentage": "Minimum 50% aggregate in PCB (40% for reserved categories)",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Pen and Paper-based Test (PBT)",
+            "duration": "3 hours",
+            "total_papers": 1,
+            "total_questions": 180,
+            "question_types": [
+                "Multiple Choice Questions (MCQs)"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies (usually in the month of December)",
+            "registration_end_date": "Varies (usually in the month of January)",
+            "exam_date": "Usually in the month of May"
+        },
+        "official_website": "https://ntaneet.nic.in/",
+        "additional_information": "NEET is the primary entrance exam for admission to undergraduate medical courses in India, conducted by the National Testing Agency (NTA)."
+    },
+    {
+        "exam_name": "National Standard Examination in Physics (NSEP)",
+        "exam_type": "Olympiad",
+        "exam_level": "National Level",
+        "exam_purpose": "Initial stage for selection in the International Physics Olympiad (IPhO)",
+        "exam_subjects": [
+            "Physics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "Not specified",
+            "educational_qualification": "Class 12 or lower",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Pen and Paper-based Test (PBT)",
+            "duration": "2 hours",
+            "total_papers": 1,
+            "total_questions": "70",
+            "question_types": [
+                "Multiple Choice Questions (MCQs)"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies (usually in the month of August)",
+            "registration_end_date": "Varies (usually in the month of September)",
+            "exam_date": "Usually in the month of November"
+        },
+        "official_website": "https://www.iapt.org.in/",
+        "additional_information": "NSEP is the first stage in the selection process for the International Physics Olympiad (IPhO)."
+    },
+    {
+        "exam_name": "Indian National Physics Olympiad (INPhO)",
+        "exam_type": "Olympiad",
+        "exam_level": "National Level",
+        "exam_purpose": "Selection for the Orientation-cum-Selection Camp (OCSC) in Physics",
+        "exam_subjects": [
+            "Physics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "Not specified",
+            "educational_qualification": "Qualified from NSEP",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Written Examination",
+            "duration": "3 hours",
+            "total_papers": 1,
+            "total_questions": "Varies",
+            "question_types": [
+                "Theoretical problems requiring detailed solutions"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Based on NSEP results",
+            "registration_end_date": "Based on NSEP results",
+            "exam_date": "Usually in the month of January"
+        },
+        "official_website": "https://olympiads.hbcse.tifr.res.in/",
+        "additional_information": "INPhO is the second stage in the selection process for the International Physics Olympiad (IPhO)."
+    },
+    {
+        "exam_name": "Orientation-cum-Selection Camp (OCSC) in Physics",
+        "exam_type": "Training Camp",
+        "exam_level": "National Level",
+        "exam_purpose": "Training and selection for the International Physics Olympiad (IPhO)",
+        "exam_subjects": [
+            "Physics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "Not specified",
+            "educational_qualification": "Selected from INPhO",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Training and assessment",
+            "duration": "Several weeks",
+            "total_papers": "Multiple assessments",
+            "total_questions": "Varies",
+            "question_types": [
+                "Theoretical problems",
+                "Experimental tasks"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Based on INPhO results",
+            "registration_end_date": "Based on INPhO results",
+            "exam_date": "Usually April to May"
+        },
+        "official_website": "https://olympiads.hbcse.tifr.res.in/",
+        "additional_information": "OCSC in Physics is held to train students for the IPhO and select the final team representing India."
+    },
+    {
+        "exam_name": "Pre-Departure Training Camp (PDT) for IPhO",
+        "exam_type": "Training Camp",
+        "exam_level": "National Level",
+        "exam_purpose": "Final preparation and training for the International Physics Olympiad (IPhO)",
+        "exam_subjects": [
+            "Physics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "Not specified",
+            "educational_qualification": "Selected from OCSC",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Training and assessment",
+            "duration": "Several days",
+            "total_papers": "Multiple assessments",
+            "total_questions": "Varies",
+            "question_types": [
+                "Theoretical problems",
+                "Experimental tasks"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Based on OCSC results",
+            "registration_end_date": "Based on OCSC results",
+            "exam_date": "Usually in June"
+        },
+        "official_website": "https://olympiads.hbcse.tifr.res.in/",
+        "additional_information": "PDT for IPhO is the final preparation stage before the Indian team departs for the International Physics Olympiad."
+    },
+    {
+        "exam_name": "International Physics Olympiad (IPhO)",
+        "exam_type": "Olympiad",
+        "exam_level": "International Level",
+        "exam_purpose": "Competition to identify the best pre-university physics students in the world",
+        "exam_subjects": [
+            "Physics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "Not specified",
+            "educational_qualification": "Selected through national level competitions",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Written and Experimental Examinations",
+            "duration": "5 days",
+            "total_papers": "2 (one theoretical, one experimental)",
+            "total_questions": "Varies",
+            "question_types": [
+                "Theoretical problems",
+                "Experimental tasks"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies by country",
+            "registration_end_date": "Varies by country",
+            "exam_date": "Usually in July"
+        },
+        "official_website": "https://www.ipho-new.org/",
+        "additional_information": "IPhO is the final stage where students compete with their peers from around the world."
+    },
+    {
+        "exam_name": "National Standard Examination in Junior Science (NSEJS)",
+        "exam_type": "Olympiad",
+        "exam_level": "National Level",
+        "exam_purpose": "Initial stage for selection in the International Junior Science Olympiad (IJSO)",
+        "exam_subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "14 years",
+            "educational_qualification": "Class 10 or lower",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Pen and Paper-based Test (PBT)",
+            "duration": "2 hours",
+            "total_papers": 1,
+            "total_questions": "80",
+            "question_types": [
+                "Multiple Choice Questions (MCQs)"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies (usually in the month of August)",
+            "registration_end_date": "Varies (usually in the month of September)",
+            "exam_date": "Usually in the month of November"
+        },
+        "official_website": "https://www.iapt.org.in/",
+        "additional_information": "NSEJS is the first stage in the selection process for the International Junior Science Olympiad (IJSO)."
+    },
+    {
+        "exam_name": "Indian National Junior Science Olympiad (INJSO)",
+        "exam_type": "Olympiad",
+        "exam_level": "National Level",
+        "exam_purpose": "Selection for the Orientation-cum-Selection Camp (OCSC) in Junior Science",
+        "exam_subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "Not specified",
+            "educational_qualification": "Qualified from NSEJS",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Written Examination",
+            "duration": "3 hours",
+            "total_papers": 1,
+            "total_questions": "Varies",
+            "question_types": [
+                "Theoretical problems requiring detailed solutions"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Based on NSEJS results",
+            "registration_end_date": "Based on NSEJS results",
+            "exam_date": "Usually in the month of January"
+        },
+        "official_website": "https://olympiads.hbcse.tifr.res.in/",
+        "additional_information": "INJSO is the second stage in the selection process for the International Junior Science Olympiad (IJSO)."
+    },
+    {
+        "exam_name": "Orientation-cum-Selection Camp (OCSC) in Junior Science",
+        "exam_type": "Training Camp",
+        "exam_level": "National Level",
+        "exam_purpose": "Training and selection for the International Junior Science Olympiad (IJSO)",
+        "exam_subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "Not specified",
+            "educational_qualification": "Selected from INJSO",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Training and assessment",
+            "duration": "Several weeks",
+            "total_papers": "Multiple assessments",
+            "total_questions": "Varies",
+            "question_types": [
+                "Theoretical problems",
+                "Experimental tasks"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Based on INJSO results",
+            "registration_end_date": "Based on INJSO results",
+            "exam_date": "Usually April to May"
+        },
+        "official_website": "https://olympiads.hbcse.tifr.res.in/",
+        "additional_information": "OCSC in Junior Science is held to train students for the IJSO and select the final team representing India."
+    },
+    {
+        "exam_name": "Pre-Departure Training Camp (PDT) for IJSO",
+        "exam_type": "Training Camp",
+        "exam_level": "National Level",
+        "exam_purpose": "Final preparation and training for the International Junior Science Olympiad (IJSO)",
+        "exam_subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "Not specified",
+            "educational_qualification": "Selected from OCSC",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Training and assessment",
+            "duration": "Several days",
+            "total_papers": "Multiple assessments",
+            "total_questions": "Varies",
+            "question_types": [
+                "Theoretical problems",
+                "Experimental tasks"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Based on OCSC results",
+            "registration_end_date": "Based on OCSC results",
+            "exam_date": "Usually in November"
+        },
+        "official_website": "https://olympiads.hbcse.tifr.res.in/",
+        "additional_information": "PDT for IJSO is the final preparation stage before the Indian team departs for the International Junior Science Olympiad."
+    },
+    {
+        "exam_name": "International Junior Science Olympiad (IJSO)",
+        "exam_type": "Olympiad",
+        "exam_level": "International Level",
+        "exam_purpose": "Competition to identify the best pre-university junior science students in the world",
+        "exam_subjects": [
+            "Physics",
+            "Chemistry",
+            "Biology"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "15 years",
+            "educational_qualification": "Selected through national level competitions",
+            "required_percentage": "Not specified",
+            "number_of_attempts": "No limit"
+        },
+        "exam_pattern": {
+            "mode": "Written and Experimental Examinations",
+            "duration": "Several days",
+            "total_papers": "2 (one theoretical, one experimental)",
+            "total_questions": "Varies",
+            "question_types": [
+                "Theoretical problems",
+                "Experimental tasks"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies by country",
+            "registration_end_date": "Varies by country",
+            "exam_date": "Usually in December"
+        },
+        "official_website": "https://www.ijso-official.org/",
+        "additional_information": "IJSO is the final stage where students compete with their peers from around the world."
+    },
+    {
+        "exam_name": "National Mathematics Talent Contest (NMTC)",
+        "exam_type": "Talent Search Exam",
+        "exam_level": "National Level",
+        "exam_purpose": "To identify and nurture young mathematical talent in India",
+        "exam_subjects": [
+            "Mathematics"
+        ],
+        "eligibility_criteria": {
+            "minimum_age": "No specific minimum age",
+            "educational_qualification": "Open to students from primary to undergraduate levels",
+            "required_percentage": "No specific percentage required",
+            "number_of_attempts": "No restriction on the number of attempts"
+        },
+        "exam_pattern": {
+            "mode": "Offline (Pen and Paper)",
+            "duration": "2 hours",
+            "total_papers": 1,
+            "total_questions": "Varies by level",
+            "question_types": [
+                "Descriptive Questions",
+                "Objective Questions"
+            ]
+        },
+        "important_dates": {
+            "registration_start_date": "Varies (usually in the month of June)",
+            "registration_end_date": "Varies (usually in the month of August)",
+            "exam_date": "Usually in the month of October"
+        },
+        "official_website": "https://www.amtionline.com/nmtc.php",
+        "additional_information": "NMTC is conducted by the Association of Mathematics Teachers of India (AMTI) and aims to identify and encourage students with a talent for mathematics."
+    }                            
+]

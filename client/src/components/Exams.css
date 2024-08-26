@@ -1,0 +1,206 @@
+/* Base Styles */
+.exams-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    animation: fadeIn 1s ease-in-out; /* Entry animation for the container */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.exam-card {
+    width: 70%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    background-color: white;
+    color: rgb(65, 44, 3);
+    font-size: 1.2em; /* Use 'em' for better scalability */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center content within the card */
+    animation: slideIn 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+    transform: scale(0.95); /* Initial scale for subtle zoom effect */
+    opacity: 0;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px) scale(0.95);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+
+.exam-card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.exam-card-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    animation: contentFadeIn 1s ease-in-out 0.3s forwards; /* Staggered content animation */
+    opacity: 0;
+}
+
+@keyframes contentFadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.exam-card h2 {
+    font-size: 2.5em; /* Use 'em' for better scalability */
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease-in-out 0.3s forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.read-more-btn {
+    display: inline-block; /* Ensure the button respects centering */
+    margin: 10px auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border: none;
+    background-color: brown;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s, transform 0.3s;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease-in-out 0.6s forwards;
+}
+
+.read-more-btn:hover {
+    background-color: darkred;
+    transform: translateY(-2px); /* Subtle lift on hover */
+}
+
+.exam-details {
+    text-align: left; /* Align text to the left for details */
+    margin-top: 15px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease-in-out 0.5s forwards;
+}
+
+.exam-details ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+}
+
+.exam-details ul li {
+    margin-bottom: 5px;
+}
+
+.oh {
+    width: 60%;
+    margin: 20px auto;
+    text-align: center;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 1.5em;
+    animation: slideIn 0.5s ease-in-out;
+}
+
+/* Media Queries */
+
+/* Tablets and Small Desktops */
+@media (max-width: 1024px) {
+    .exam-card {
+        width: 80%;
+        font-size: 1.1em;
+    }
+
+    .exam-card h2 {
+        font-size: 2.2em;
+    }
+
+    .read-more-btn {
+        padding: 8px 16px;
+    }
+
+    .oh {
+        width: 70%;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .exam-card {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .exam-card h2 {
+        font-size: 2em;
+    }
+
+    .read-more-btn {
+        padding: 6px 12px;
+        font-size: 0.9em;
+    }
+
+    .oh {
+        width: 80%;
+    }
+}
+
+/* Very Small Devices */
+@media (max-width: 480px) {
+    .exam-card {
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    .exam-card h2 {
+        font-size: 1.8em;
+    }
+
+    .read-more-btn {
+        padding: 5px 10px;
+        font-size: 0.8em;
+    }
+
+    .oh {
+        width: 90%;
+    }
+}

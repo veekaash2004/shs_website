@@ -1,0 +1,87 @@
+.result-banner {
+    background-color: #f0f8ff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.res1, .res2, .res3, .res4, .res5 {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.result-banner .res1 h2, 
+.result-banner .res2 h2, 
+.result-banner .res3 h2, 
+.result-banner .res4 h2, 
+.result-banner .res5 h2 {
+    font-size: 2em;
+    color: #033185;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.student-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.student-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Hide overflow to ensure the image animation is smooth */
+}
+
+.student-card:hover {
+    transform: translateY(-7px) scale(1.05);
+}
+
+.student-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 10px;
+    animation: imageFadeIn 0.5s ease-in-out;
+}
+
+@keyframes imageFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.student-details h3 {
+    font-size: 1.5em;
+    color: #035695;
+    margin: 10px 0 5px;
+}
+
+.student-details p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 5px 0;
+}
+
+@media (max-width: 500px) {
+    .student-card {
+        width: calc(100% - 10px);
+    }
+}

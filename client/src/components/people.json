@@ -1,0 +1,49 @@
+[
+    {
+        "image": "./people_images/RahulKumar.jpg",
+        "name": "Rahul Kumar(Guddu Bhaiya)",
+        "qualification": "Founder & CEO of Srijan Home School"
+    },
+    {
+        "image": "./people_images/SujeetKumar.jpg",
+        "name": "Sujeet Kumar",
+        "degree": "B.Tech from  Netaji Subhas Institute of Technology",
+        "researchArea": "Software Developement Engineer at C-DOT"
+    },
+    {
+        "image": "./people_images/RanjanRaj.jpg",
+        "name": "Ranjan Raj",
+        "qualification": "Studied at IIT Bombay",
+        "researchArea": "Actor"
+    },
+    {
+        "image": "./people_images/AvitanshuAdarsh.jpg",
+        "name": "Avitanshu Adarsh(Manish Bhaiya)",
+        "qualification": "B.Tech from IIT Delhi",
+        "researchArea": "Government Officer"
+    },
+    {
+        "image": "./people_images/SudhirKumar.jpg",
+        "name": "Sudhir Kumar",
+        "qualification": "B.Tech from IIT Delhi",
+        "researchArea": "Currently preparing for UPSC"
+    },
+    {
+        "image": "./people_images/UjjawalGoyal.jpg",
+        "name": "Ujjawal Goyal",
+        "qualification": "Completed B.Tech from IIT Kanpur",
+        "researchArea": "Software Developement Engineer at GreyOrange"
+    },
+    {
+        "image": "./people_images/AnishKumar.jpg",
+        "name": "Anish Kumar",
+        "degree": "B.Tech",
+        "researchArea": "Pre-final year student at IIT(ISM) Dhanbad"
+    },
+    {
+        "image": "./people_images/VikashKumar.jpg",
+        "name": "Vikash Kumar",
+        "degree": "B.Tech",
+        "researchArea": "Pre-final year student at IIT Kanpur"
+    }
+]

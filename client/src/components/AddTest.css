@@ -1,0 +1,47 @@
+/* AddTest.css */
+
+.add-test-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.add-test-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-test-form .form-group {
+    margin-bottom: 15px;
+}
+
+.add-test-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.add-test-form .form-control {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

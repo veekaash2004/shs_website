@@ -1,0 +1,202 @@
+/* Base Styles */
+.amazing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 50%;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center; /* Center the content */
+  align-items: center;
+  background-color: #0A81D1;
+  color: white;
+  position: sticky;
+  top: 0;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+}
+
+nav .title {
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-right: auto; /* Align title to the left */
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around; /* Equally space out the items */
+  margin: 0;
+  padding: 0;
+  width: 50%; /* Adjust the width as needed to center the items */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+nav ul li a:not(.active):hover {
+  background-color: #769bdf;
+}
+
+nav .menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 2.25rem;
+  height: 2rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+nav .menu span {
+  height: 0.4rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  transition: transform 0.3s;
+}
+
+nav .menu.open span:nth-child(1) {
+  transform: translateY(0.8rem) rotate(45deg);
+}
+
+nav .menu.open span:nth-child(2) {
+  opacity: 0;
+}
+
+nav .menu.open span:nth-child(3) {
+  transform: translateY(-0.8rem) rotate(-45deg);
+}
+
+.register-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-image img {
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  /* border: 3px solid #ccc; */
+}
+
+.register-form {
+  flex: 1;
+  max-width: 400px;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 3px solid #ccc;
+}
+
+.register-form h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.register-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-form label {
+  margin-bottom: 15px;
+}
+
+.register-form input, .register-form select {
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.register-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.register-form button:hover {
+  background-color: #45a049;
+}
+
+/* Media Queries */
+
+/* Tablets and Small Desktops */
+@media (max-width: 1024px) {
+    .amazing {
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+    }
+
+    .register-image img {
+        max-width: 80%; /* Adjust width as needed */
+    }
+
+    .register-form {
+        max-width: 80%;
+        padding: 30px;
+        margin: 20px 0; /* Add margin for spacing */
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .amazing {
+        width: 90%;
+    }
+
+    .register-image img {
+        max-width: 90%; /* Adjust width as needed */
+    }
+
+    .register-form {
+        max-width: 90%;
+        padding: 20px;
+    }
+}
+
+/* Very Small Devices */
+@media (max-width: 480px) {
+    .amazing {
+        width: 100%;
+    }
+
+    .register-image img {
+        max-width: 100%; /* Adjust width as needed */
+    }
+
+    .register-form {
+        max-width: 100%;
+        padding: 10px;
+    }
+}

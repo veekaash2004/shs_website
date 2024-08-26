@@ -1,0 +1,137 @@
+[
+    {
+        "exam": "ja2023",
+        "image": "./people_images/ManojKumar.jpg",
+        "name": "Manoj Kumar",
+        "degree": "B.Tech",
+        "details": "1st year student at IIT Hyderabad"
+    },
+    {
+        "exam": "ja2023",
+        "image": "./people_images/RaunakKumar.jpg",
+        "name": "Raunak Kumar",
+        "degree": "B.Tech",
+        "details": "1st Year at IIT(ISM) Dhanbad"
+    },
+    {
+        "exam": "med2023",
+        "image": "./people_images/BeautyVitika.jpg",
+        "name": "Beauty Vitika",
+        "degree": "MBBS",
+        "details": "1st year at JMC Betiya"
+    },
+    {
+        "exam": "inmo2023",
+        "image": "./people_images/GaurikaMahi.jpg",
+        "name": "Gaurika Mahi",
+        "details": "10th"
+    },
+    {
+        "exam": "inmo2023",
+        "image": "./people_images/AryaMimamsa.jpg",
+        "name": "Arya Mimamsa",
+        "details": "8th"
+    },
+    {
+        "exam": "rmo2023",
+        "image": "./people_images/GaurikaMahi.jpg",
+        "name": "Gaurika Mahi",
+        "details": "10th"
+    },
+    {
+        "exam": "rmo2023",
+        "image": "./people_images/AryaMimamsa.jpg",
+        "name": "Arya Mimamsa",
+        "details": "8th"
+    },
+    {
+        "exam": "rmo2023",
+        "image": "./people_images/NikhilKumar.jpg",
+        "name": "Nikhil Kumar",
+        "details": "9th"
+    },
+    {
+        "exam": "rmo2023",
+        "image": "./people_images/PriyanshuKumar.jpg",
+        "name": "Priyanshu Kumar",
+        "details": "10th"
+    },
+    {
+        "exam": "rmo2023",
+        "image": "./people_images/VishalKumar.jpg",
+        "name": "Vishal Kumar",
+        "details": "9th"
+    },
+    {
+        "exam": "rmo2023",
+        "image": "./people_images/ManikantKUmar.jpg",
+        "name": "Manikant Kumar",
+        "details": "10th"
+    },
+    {
+        "exam": "rmo2023",
+        "image": "./people_images/AnshuSingh.jpg",
+        "name": "Anshu Singh",
+        "details": "9th"
+    },
+    {
+        "exam": "rmo2023",
+        "image": "./people_images/AtikNazir.jpg",
+        "name": "Atik Nazir",
+        "details": "8th"
+    },
+    {
+        "exam": "prmo2023",
+        "image": "./people_images/GaurikaMahi.jpg",
+        "name": "Gaurika Mahi",
+        "details": "10th"
+    },
+    {
+        "exam": "prmo2023",
+        "image": "./people_images/AryaMimamsa.jpg",
+        "name": "Arya Mimamsa",
+        "details": "8th"
+    },
+    {
+        "exam": "prmo2023",
+        "image": "./people_images/NikhilKumar.jpg",
+        "name": "Nikhil Kumar",
+        "details": "9th"
+    },
+    {
+        "exam": "prmo2023",
+        "image": "./people_images/PriyanshuKumar.jpg",
+        "name": "Priyanshu Kumar",
+        "details": "10th"
+    },
+    {
+        "exam": "prmo2023",
+        "image": "./people_images/VishalKumar.jpg",
+        "name": "Vishal Kumar",
+        "details": "9th"
+    },
+    {
+        "exam": "prmo2023",
+        "image": "./people_images/ManikantKUmar.jpg",
+        "name": "Manikant Kumar",
+        "details": "10th"
+    },
+    {
+        "exam": "prmo2023",
+        "image": "./people_images/AnshuSingh.jpg",
+        "name": "Anshu Singh",
+        "details": "9th"
+    },
+    {
+        "exam": "prmo2023",
+        "image": "./people_images/AtikNazir.jpg",
+        "name": "Atik Nazir",
+        "details": "8th"
+    },
+    {
+        "exam": "prmo2023",
+        "image": "./people_images/RishiRaj.jpg",
+        "name": "Rishi Raj",
+        "details": "8th"
+    } 
+]
